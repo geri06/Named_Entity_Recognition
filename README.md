@@ -1,6 +1,6 @@
 # Named_Entity_Recognition
-Este trabajo se centra en la implementación en Python de un sistema de reconocimiento de entidades nominales para el castellano y para el neerlandés, basándonos en el corpus conll2002 accesible en ambos idiomas. Para ello haremos uso de los Conditional Random Fields y de las codificaciones BIO, IO y BIOW.
+This work focuses on implementing a Named Entity Recognition system in Python for both Spanish and Dutch, using the conll2002 corpus available in both languages. To achieve this, we will leverage Conditional Random Fields and employ BIO, IO, and BIOW encodings.
 
-Cabe destacar la implementación de una función que mediante la función displacy.render de la librería SpaCy nos permite etiquetar textos reales de manera visual con la implementación de nuestro CRF entrenado de sklearn.
+It's worth highlighting the implementation of a function that, using the displacy.render function from the SpaCy library, visually tags real texts with our trained CRF from sklearn.
 
-Informe redactado en Catalán. 
+Report written in Catalan.
